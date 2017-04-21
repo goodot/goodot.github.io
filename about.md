@@ -1,6 +1,6 @@
 ---
 layout: page
 title: About
+published: true
 ---
-
-Introduce yourself here... so people will know who you are and what you do.. blah..blah..blah..
+Author is still thinking what to write about himself ...
