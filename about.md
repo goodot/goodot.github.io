@@ -1,6 +1,8 @@
 ---
 layout: page
-title: About
+title: aboutme
 published: true
 ---
-Author is still thinking what to write about himself ...
+I am from [Surami](https://en.wikipedia.org/wiki/Surami). One of the best places in [Georgia](https://en.wikipedia.org/wiki/Georgia_%28country%29). I study Computer Science, play basketball and write some fictional, artistic texts (only on [Georgian](https://en.wikipedia.org/wiki/Georgian_language)). I am interested in Artificial Intelligence, Fuzzy Logic, Maths, Fiction, etc.
+
+_P.S I have this black basketball as a favicon of my main page just because I love playing basketball and it doesn't have any connection with the content of this blog._
