@@ -1,9 +1,12 @@
 ---
 layout: post
-title: About TextLog - Minimalist, distraction-free and content-focused Jekyll theme
-tags: [Demo, About]
+title: 'About TextLog - Minimalist, distraction-free and content-focused Jekyll theme'
+tags:
+  - Demo
+  - About
 author: Heiswayi Nrird
 comment: true
+published: false
 ---
 
 TextLog is a minimalist, distraction-free and content-focused Jekyll theme. TextLog uses [Droid Sans](https://fonts.google.com/specimen/Droid+Sans) typeface from Google Web Fonts. TextLog also supports [Disqus comment](https://disqus.com/) and [tags](https://heiswayi.github.io/textlog/tagged/)
