@@ -7,15 +7,17 @@ Sometimes in Android Development we need checkable ListView  to choose multiple 
 
 **Player Model**
 
+
+<div>
 First of all we create class which describes player:
 
-<code>
+
+
 public class BasketballPlayer {
     private String name;
     private Integer height;
     private int imageResource;
     private Integer age;
-
 
     public String getName() {
         return name;
@@ -49,8 +51,10 @@ public class BasketballPlayer {
         this.age = age;
     }
 }
+</div>
 
-</code>
+
+
 
 
 
