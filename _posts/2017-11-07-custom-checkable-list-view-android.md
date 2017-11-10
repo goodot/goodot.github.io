@@ -57,7 +57,8 @@ First of all we create class which describes player:
 **Activity and ListView**
 
 Let's create activity which contains ListView (In this example we have LinearLayout): 
-	> <? xml version="1.0" encoding="utf-8"?
+	
+    <? xml version="1.0" encoding="utf-8"?>
 	<ListView xmlns:android="http://schemas.android.com/apk/res/android"
       xmlns:app="http://schemas.android.com/apk/res-auto"
       xmlns:tools="http://schemas.android.com/tools"
@@ -71,4 +72,4 @@ Let's create activity which contains ListView (In this example we have LinearLay
           android:layout_height="match_parent"
           android:id="@+id/list_view"/>
 
-	</ListView>
+		</ListView>
