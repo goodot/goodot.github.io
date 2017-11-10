@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ## Checkable custom ListView in Android development
 
