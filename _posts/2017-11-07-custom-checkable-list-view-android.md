@@ -84,6 +84,8 @@ Now we should create java class which will extent RelativeLayout class and imple
 
 If we imagine our list view graphically we have view like that, list view with RelativeLayout items; all of them are checkable:
 ![Checkable List View]({{site.baseurl}}/https://lh3.googleusercontent.com/46I3EOZ_ZX2rC2VDr7AY2hWSP8wrm5cCqbrPXZpHxZTAkzMNC-TgThulj7P-ch79PfuG3UGy2tGOp_dFgD_ftjHF2Q0r6Ky32omLCivMkFqjNEz9IU74Dl6l_PayPXkMXj9Jhj_gLbk7pBYgZfWXiG1t_yi1p135YBpASLtMSdUJpiekiaCI8FxlkbvA2d5U0lvdndfoh9i11V5DS3z2Huq-Q_Wqf2i0Fy58a8rzYlmxHPS0SG1wL9JoJ8dol6nKSp2SztDLgI3pL-A31D-3P1D3cIDMcgDS3UMEHdbJix2SaSIJsaQ9hTqJzLHHp44H1M97l7Nri2yBAUyL8iTEx5vCYzUazo004w4RtZ2C9Qh3OPKfbqhP7ZKJKdx737fkgmhOPrCPifktrHQsU-0obXZd4sQBesiO2gbES-RFpLURqFTPZoRRJRaXJ5521HV2DMqmOBvynf90tYtTy5ab4WZvzB5DshTaACrHIz99Mb79LeOhk3KeA42ACMnW5-kvzCxiW0c8lLci7RPVEbqWTxeMNvcm-WYW4no9HYObmjy0NpMSurh_7d9OP-uPtPYNiOzeCsYxh1Ogrg9ymlx9k9BP_qf3RkZwYpJX7t8WsQ=w358-h593-no)
+
+
  **BasketballPlayerAdapter**
  
  
