@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 ---
 ## Checkable custom ListView in Android development
 
@@ -8,7 +8,7 @@ Sometimes in Android Development we need checkable ListView  to choose multiple 
 **Player Model**
 
 
-<div>
+
 First of all we create class which describes player:
 
 
@@ -51,7 +51,7 @@ public class BasketballPlayer {
         this.age = age;
     }
 }
-</div>
+
 
 
 
