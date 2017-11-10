@@ -1,7 +1,7 @@
 ---
 published: true
 ---
-## Checkable custom ListView in Android development
+## Checkable custom ListView in Android
 
 Sometimes in Android Development we need checkable ListView  to choose multiple items and do some action simultanously on them. Let's discuss some application about basketball players, it doesn't matter what about is this app, we just discuss only ListView where is represented list of basketball players. In this situation would be better if we use custom items in our ListView to show complex information about players in a single row, e.g. photo of player, name, height and age.
 
