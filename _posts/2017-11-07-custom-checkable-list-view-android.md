@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ## Checkable custom ListView in Android development
 
@@ -56,16 +56,19 @@ First of all we create class which describes player:
 
 **Activity and ListView**
 
-Let's create activity which contains 
+Let's create activity which contains ListView (In this example we have LinearLayout): 
+	<? xml version="1.0" encoding="utf-8"?>
+	<ListView xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      tools:context="com.listview.checkable.checkable_listview.MainActivity">
 
 
+      <ListView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:id="@+id/list_view"/>
 
-
-
-
-
-
-
-
-
-
+	</ListView>
