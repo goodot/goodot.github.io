@@ -138,6 +138,8 @@ So implementation of checkable would look like this:
 First of all let's create some selectors which changes it's condition on check. We need text color selector and some image selector, when user checks the item, texts on items should change colors and also would be nice if there were some graphical indicator which represents is item checked or not, for example we use tick icon to represent checked condition.
 
 _checkdrawableselector.xml_
+
+
       <selector xmlns:android="http://schemas.android.com/apk/res/android">
           <item android:state_checked="true" android:drawable="@drawable/checked" />
           <!--<item android:drawable="@drawable/unchecked" />-->
