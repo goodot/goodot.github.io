@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 ---
 ## Checkable custom ListView in Android
 
@@ -166,7 +166,7 @@ _list_veiw_item.xml_
 
 
         <ImageView
-            android:id="@+id/imageView"
+            android:id="@+id/player_photo_image_view"
             android:layout_width="60dp"
             android:layout_height="80dp"
             android:layout_alignParentStart="true"
@@ -181,7 +181,7 @@ _list_veiw_item.xml_
             android:layout_alignParentTop="true"
             android:layout_marginStart="21dp"
             android:layout_marginTop="13dp"
-            android:layout_toEndOf="@+id/imageView"
+            android:layout_toEndOf="@+id/player_photo_image_view"
             android:text="Emanuel Ginobili"
             android:textSize="18sp"
             android:textStyle="bold" />
@@ -218,3 +218,58 @@ _list_veiw_item.xml_
 
 
  **BasketballPlayerAdapter**
+ 
+ To use our custom item and layout in list view we should make custom adapter to unite them. Let's create java class which extends BaseAdapter:
+
+
+
+    public class BasketballPlayerAdapter extends BaseAdapter {
+        private Context context;
+        private ArrayList<BasketballPlayer> basketballPlayers;
+
+        public BasketballPlayerAdapter(Context context, ArrayList<BasketballPlayer> basketballPlayers){
+            this.context = context;
+            this.basketballPlayers = basketballPlayers;
+
+        }
+
+        @Override
+        public int getCount() {
+            return this.basketballPlayers.size();
+        }
+
+        @Override
+        public BasketballPlayer getItem(int position) {
+            return this.basketballPlayers.get(position);
+        }
+
+        @Override
+        public long getItemId(int position) {
+            return position;
+        }
+
+        @Override
+        public View getView(int position, View convertView, ViewGroup parent) {
+            LayoutInflater inflater = (LayoutInflater)context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+            View view = inflater.inflate(R.layout.list_view_item, parent, false);
+
+            ImageView playerPhotoImageView = (ImageView) view.findViewById(R.id.player_photo_image_view);
+            TextView playerNameTextView = (TextView) view.findViewById(R.id.player_name_text_view);
+            TextView playerAgeTextView = (TextView) view.findViewById(R.id.player_age_text_view);
+            TextView playerHeightTextView = (TextView) view.findViewById(R.id.player_height_text_view);
+
+            BasketballPlayer basketballPlayer = this.basketballPlayers.get(position);
+
+            playerPhotoImageView.setImageDrawable(context.getResources().getDrawable(basketballPlayer.getImageResource()));
+            playerNameTextView.setText(basketballPlayer.getName());
+            playerAgeTextView.setText(basketballPlayer.getAge().toString() + " years old");
+            playerHeightTextView.setText(basketballPlayer.getHeight().toString() + " cm");
+
+
+            return view;
+        }
+    }
+
+
+**Using Custom Adapter**
+
