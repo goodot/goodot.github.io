@@ -137,12 +137,82 @@ So implementation of checkable would look like this:
 
 First of all let's create some selectors which changes it's condition on check. We need text color selector and some image selector, when user checks the item, texts on items should change colors and also would be nice if there were some graphical indicator which represents is item checked or not, for example we use tick icon to represent checked condition.
 
-_checkdrawableselector.xml_
+_check_drawable_selector.xml_
 
-
+	<?xml version="1.0" encoding="utf-8"?>
       <selector xmlns:android="http://schemas.android.com/apk/res/android">
           <item android:state_checked="true" android:drawable="@drawable/checked" />
-          <!--<item android:drawable="@drawable/unchecked" />-->
       </selector>
 
+_check_color_selector.xml_
+
+    <?xml version="1.0" encoding="utf-8"?>
+    <selector xmlns:android="http://schemas.android.com/apk/res/android">
+        <item android:state_checked="false" android:color="#6000" />
+        <item android:color="#4580ff"/>
+    </selector>
+
+
+and now we use this selectors in our ListView item:
+
+_list_veiw_item.xml_
+
+    <?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="60dp"
+            android:layout_height="80dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            app:srcCompat="@drawable/ginobili"
+            android:layout_marginStart="5dp"/>
+
+        <TextView
+            android:id="@+id/player_name_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="21dp"
+            android:layout_marginTop="13dp"
+            android:layout_toEndOf="@+id/imageView"
+            android:text="Emanuel Ginobili"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/player_height_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/player_name_text_view"
+            android:layout_marginBottom="10dp"
+            android:text="198 cm" />
+
+        <TextView
+            android:id="@+id/player_age_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/player_height_text_view"
+            android:layout_alignBottom="@+id/player_height_text_view"
+            android:layout_centerHorizontal="true"
+            android:text="40 years old" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="24dp"
+            app:srcCompat="@drawable/check_drawable_selector" />
+    </RelativeLayout>
+
+![list_view_item.xml](https://lh3.googleusercontent.com/YmycOtoZKepin7MpKo2eZyNznQ33yzlMQplGluqvupvBxDYo_AvvnifZenmz1D4g8AEptCaJ0zZ4JpZj-qP3mufqFvmIpSOBkyteuqWeW1zjWpP-STW8Ckzs6wLaDX0A-y8BfI0WWOdhAoPgQ2VthvqzQeCaSw1xDtfAowXEWAwh6hek02Qq_VdJWk5_s2uGOZeAs2qJj_37iyB_N5iN6r3IluvxhUakcE2iofBSCqf10GBEJxgogYUFmqmltVYUOBeu6-ZUhsczAWrJ79-6zB5H9zFArs3rYHamWBf_9b51gHYWWddZoy52DwconzVkspDKAk0oExSgvjN74bE6vS1zHPZtqJjyrNsCIw5jTaotURlwQc5RrpUQmmshkjnfwbiMgnf1TlhqN_Rc7q4lWSySWjXWPqL1netlnwXndsrxEA6MG04-x_oabrofSYwJT0uENI6KJ9rMoUqxoLok-r967QId8a2QU5fnMm8cux-cXs8dxGi_wwnWhorInIkag6Fy2KfRmM9TyndNQFRs-J-OMvppIquNbTwZxg98stjCi_G5YkO17dwB_3U-wduLHBzkZ9ZHMMmMmwntO3BlqaRLEk3YTYEV3AlitOnIHA=w383-h81-no)
  **BasketballPlayerAdapter**
