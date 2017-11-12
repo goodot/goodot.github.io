@@ -1,9 +1,9 @@
 ---
-published: false
+published: true
 ---
 ## Checkable custom ListView in Android
 
-Sometimes in Android Development we need checkable ListView  to choose multiple items and do some action simultanously on them. Let's discuss some application about basketball players, it doesn't matter what about is this app, we just discuss only ListView where is represented list of basketball players. In this situation would be better if we use custom items in our ListView to show complex information about players in a single row, e.g. photo of player, name, height and age.
+Sometimes in Android Development we need checkable ListView  to choose multiple items and do some actions simultanously on them. Let's discuss some application about basketball players, it doesn't matter what about is this app, we just talk only about ListView where is represented list of basketball players. In this situation would be better if we use custom items in our ListView to show complex information about players in a single row, e.g. photo of player, name, height and age.
 
 **Player Model**
 
@@ -133,5 +133,14 @@ So implementation of checkable would look like this:
       }
 	}
 
+**ListView item layout**
+
+First of all let's create some selectors which changes it's condition on check. We need text color selector and some image selector, when user checks the item, texts on items should change colors and also would be nice if there were some graphical indicator which represents is item checked or not, for example we use tick icon to represent checked condition.
+
+_checkdrawableselector.xml_
+      <selector xmlns:android="http://schemas.android.com/apk/res/android">
+          <item android:state_checked="true" android:drawable="@drawable/checked" />
+          <!--<item android:drawable="@drawable/unchecked" />-->
+      </selector>
 
  **BasketballPlayerAdapter**
