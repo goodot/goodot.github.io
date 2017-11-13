@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ## Checkable custom ListView in Android
 
@@ -272,4 +272,3 @@ _list_veiw_item.xml_
 
 
 **Using Custom Adapter**
-
