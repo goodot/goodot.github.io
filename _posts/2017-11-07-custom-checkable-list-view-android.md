@@ -74,7 +74,7 @@ Let's create activity which contains ListView (In this example we have LinearLay
 
 	</LinearLayout>
     
- __name of file: activity_main.xml
+ _activity_main.xml_
  
  
  
@@ -402,8 +402,3 @@ Finally our list view looks like :
 
 
 _Clone source: [https://github.com/goodot/custom-checkable-list-view](https://github.com/goodot/custom-checkable-list-view)_
-
-
-
-
-
