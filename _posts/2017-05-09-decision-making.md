@@ -18,6 +18,6 @@ First sentence is so clear in terms of Classical Set Theory, because we can cons
 
 On the other hand second sentence is so unclear and obscure, because we can't assume him as tall or short, because we don't compare him for someone or something. So this sentence only depended on human expressions. Can be said that Ginobili is tall when he is among football players, but when he is with basketball players it would not look tall. So in this case his height is depended on certain situations. Hence it follows that if we assume _set of tall players_ with "B" we can't write: ![](https://latex.codecogs.com/gif.latex?%5CLARGE%20a%5Cepsilon%20B)
 
-But this set doesn't look clear, because we don't have any rule to determine if person is tall or short and now it's time when Fuzzy Sets should enroll in a game. 
+But this set doesn't look clear, because we don't have any rule to determine if person is tall or short and now it's time when Fuzzy Sets should enroll in a game. In fuzzy sets theory element can belong to the fuzzy set partially  as I wrote above and belong rate value is between [0,1]. You can say Manu Ginobili is a tall guy with 0.81 of rate. This rate is something like percentage and it is depended for example on experts. Maybe this value is got by questioning of different people or 
 
 Imagine that you are [coach Pop](https://en.wikipedia.org/wiki/Gregg_Popovich) and you need to select good _Small Forward_ for [San Antonio Spurs](https://en.wikipedia.org/wiki/San_Antonio_Spurs).
