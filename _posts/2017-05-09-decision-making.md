@@ -37,5 +37,6 @@ Ginobili is 198cm, so according to this function, membership degree of him to th
 
 We can have many many Membership Functions. We can assume any function as Membership Function if it has _Codomain_ of real numbers and it is in range of [0,1]. There is a many common functions e.g [Sigmoid](https://en.wikipedia.org/wiki/Sigmoid_function), [Triangular](https://en.wikipedia.org/wiki/Triangular_function), [Trapezoidal](https://www.mathworks.com/help/fuzzy/trapmf.html), etc.
 
+**Membership Functions for decision making**
 
-Imagine that you are [coach Pop](https://en.wikipedia.org/wiki/Gregg_Popovich) and you need to select good _Small Forward_ for [San Antonio Spurs](https://en.wikipedia.org/wiki/San_Antonio_Spurs).
+Imagine that you are [coach Pop](https://en.wikipedia.org/wiki/Gregg_Popovich) and you need to select good _Small Forward_ for [San Antonio Spurs](https://en.wikipedia.org/wiki/San_Antonio_Spurs). 
