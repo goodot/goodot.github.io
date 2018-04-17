@@ -39,4 +39,4 @@ We can have many many Membership Functions. We can assume any function as Member
 
 **Membership Functions for decision making**
 
-Imagine that you are [coach Pop](https://en.wikipedia.org/wiki/Gregg_Popovich) and you need to select good _Small Forward_ for [San Antonio Spurs](https://en.wikipedia.org/wiki/San_Antonio_Spurs). 
+Imagine that you are [coach Pop](https://en.wikipedia.org/wiki/Gregg_Popovich) and you need to select good _Point Guard_ for [San Antonio Spurs](https://en.wikipedia.org/wiki/San_Antonio_Spurs). You need young, experienced player which is good shooter and passer, whose transfer would be cheap as possible, because your budget is small and you should save finances. Your experts gave you some options from where you should choose player for your team. 
