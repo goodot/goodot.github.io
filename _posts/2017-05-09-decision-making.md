@@ -39,5 +39,16 @@ We can have many many Membership Functions. We can assume any function as Member
 
 **Membership Functions for decision making**
 
-Imagine that you are [coach Pop](https://en.wikipedia.org/wiki/Gregg_Popovich) and you need to select good _Point Guard_ for [San Antonio Spurs](https://en.wikipedia.org/wiki/San_Antonio_Spurs). You need young, experienced player which is good shooter and passer, whose transfer would be cheap as possible, because your budget is small and you should save finances. Your experts gave you some options from where you should choose player for your team.
+Imagine that you are [coach Pop](https://en.wikipedia.org/wiki/Gregg_Popovich) and you need to select good _Point Guard_ for [San Antonio Spurs](https://en.wikipedia.org/wiki/San_Antonio_Spurs). You need young, experienced player which is good three point shooter and passer, whose transfer would be cheap as possible, because your budget is small and you should save finances. Your experts gave you some options from where you should choose player for your team.
 ![](https://lh3.googleusercontent.com/mxvVsKY35Qau9klI80DeRKGdXyzTUi7VOhdYiD5BL_yA7r_SRQwzUDxomgvexKVx5ZcMI6GaYjgCwJtK-COX7CTHIkV5QC5EElsIpXXlrhuqisRTu7R_SKOvZa9wP3tmX8SFlZY-VIyW1olanBc50e0zcU3lpelDaJodCh4RxnQP35THt0ucHFiM35ovkCjkj05GLea8BbIoWT4jQUrT7uvvuyPnX06omY_hCWt0lX7gG4VktS8-h_8jdTjbD_upUUXyUNk2ZeuLSuVi6Ax7Bio5EqgoRuLNgIkTHPmp0fgWwBwWqMEdOXUtwr2f3dqn3U-cdDtPrhjVoP_mtqY4Fuw246WB_kL-0WclEAhDtyp5iwO6SPmKkQh5m3T97BLdzmas_HKsHVy4-N0RvJ_jWCOTvr1EP7VsbZ_O51glldMz2Hpgy51_u8BF2WLpysfDYIyB0ztcX5H7FHfx1M4aaiAITcoN2Y3AymEE9vrXU9Sk7RlFKtsZY2nyfUf520j7aT5LCquKxvQGk8x1OkOe00NxTLkaS2lvvWSBKSgqTQG2EfG9gr9VURJ0uf0I-RpQkAIsTvem7bt9XA0hXkSj6aLJrFLCbISyYtYK0zY=w660-h529-no)
+
+Thats your options, how do you like this list? Remember you have just 20 million dollars for this transfer and you should be careful to choose. 
+
+Now lets create some membership functions for each requirement you have.
+
+**1. Age**
+
+You said you need an young player doesn't you? So what is a aproximately good age for being young and also experienced a little bit? I think 24, 25 or 26... or some age nearer those numbers. Let's make membership function to express your requirement. Would be better if we use triangular membership function which actually looks like: ![](https://lh3.googleusercontent.com/0gqQrBrdygRWu8KGDwBiUOmbUs-zVdkoHr2c5PBO2-iPVv_a1cJeh-afDU_nzgeyP_F1h9hV6p4lKUzrFIE0RzIQENXl7xpOULBk0Wbku_NmVteDZ_s1jYHkTUwUTqdTJBXm-XWcq081cR2gLUYhY8OowITg32twMY74-t0YzmzeNXlFnNg1X1R6YudY63g3hCpAJbVBOK5JYuTfzsucl5eQuvsaJYS5YnAhSKzWrpbxITSY109sLnrU2iV8jLiupddPod6bikvh8FqxkClYoodbq-wCK-d49PXmIJZSuKEaEvuXJamYEHF6hUsXNRzAtx_K6qOnAqdewT9hQXCErusghzELPiU3WQF-q66IagRS6p7_flK6D-GahCBWOSwcnkRQhUZcYxVy6AjeHrg9yzaFT6t9bUN2PDfJzx-hgwvk4gYroFed288eVhkpl5NDfeOrVr0CTffiXaNFe0nh8m-sq2F9pXfJmkSj054c8Qg7kliq1eZvaOisnj7kVw29n31p64RvzModb4A_gKg8rXrAizfLEljkAwB4Mhn3ey-Vo4vZzJ2JcOlFf-TJTpTyt7hModBjxYaGHivqk83Y_nuQc4tzPnCuuaE_6vo=w214-h143-no)
+
+where a,b and c are numeric parameters, indicating corners of triangle-shaped graph. 
+
