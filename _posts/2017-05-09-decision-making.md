@@ -50,4 +50,24 @@ Now lets create some membership functions for each requirement you have.
 
 You said you need an young player doesn't you? So what is a aproximately good age for being young and also experienced a little bit? I think 24, 25 or 26... or some age nearer those numbers. Let's make membership function to express your requirement. Would be better if we use trapezoid membership function which actually looks like: ![](https://lh3.googleusercontent.com/k4UbxhiXKEn2xpl6ZDsD8jL5ZQyMYogXnBh3B10fp6FyaRqgJ9rDxZYub5LdUy5BifbLqPYMLHh-WLwhNI-b7NWMKJKA-NIlxBNRc_SJlD_dqnY1s0ZHZOnjvkpMGUevm1RVSj5yyAKdgB1OcChUHWkriVn-OCXdfFE2ZEd-_pjYE6m1ow788Ec6Zd2TWQ9ONHfmWgVDJilvHoh13VkmTZasIcRGQzkAW3EhdI_wRBgfnXW5XQAq0Nku_gHlNyJt_jwKOEE1FF6wpYAnuf8qDrqNPuUO4z4eRdQPEsQXoejFt7x9vzW5YPDE_Auv55rwwm0ucO46KvAh8MzSfO_7aD6Zax_6J5FOhPVy13P3ZYf6z08Ran5YvmQME9rBfJcmEj7YtHJ3x71Eo2R35JMBeOKI9SR-9yEAzq34sfmpon76ZDcOwU2E0Q7UB5XMpUyIOdFGRq9Eu_ZpOdMcDYqgR_kRvwozRGZPVfMRVhyBl7AYSmyrauYZXvwyzay4kqvABKGpd74TCUuoN2XGNmIEXnn8roFe0yvN8JIzlWt9Er4OI-NElv-LHXvmr6jnAe9EhY7J-xrKcmnQ1k3jclEVigcTsfBtiQeJQfp4ZSY=w258-h143-no)
 
-where a, b, c and d are numeric parameters, indicating corners of triangle-shaped graph.
+where a, b, c and d are numeric parameters, indicating corners of trapezoid-shaped graph. If we take a, b, c and d consecutively 18, 24, 26, 35 we would get graph like that: 
+![](https://lh3.googleusercontent.com/M07hoNA4Dorj5B4TLCI6pOj8eyLEYjgtHEWrabqr3RvCBx1v759VhbA4u1203Waff2kO3PeYznEZSUfY6MwkdOQnm5-b4vc5ZPRBp_PfBuwSR08G5M8RPnKSwfwkV0CCM4AwDmfK0wUfGhXhvfozSkJ0RL9itiEVAhbucSqH4VfTD7ZX-hAtd71LLNk1vgKuoEnuMKyUJZxgG4QoIUunlw0fCEA_24LCmnrqf1X71jJNQsH2bSsSqbZsCNNZ_JompwR5Zs4V940Ef8SYuULonXGJhK_8LDIcRAtbV1PBoH7xl2C51CV9at_bokKO3D9uoc81Z2GkCeHYj-Re0P9978IU8jmncrTqwpNWv2RRvNytGyrV22hCaUzjMbN-rMkbONLa-AA56d4Qk184WmePmDuepFaL35_SjaJRyvb_0_M2g_oinTw-mMjg92J0SVKlJ_XYrHJJKJa6DIM7OdYbRthkuTKCJWarFEehHg2oPmUHmv4jb8qKmXV0-blXH61bgYJJGIfBRP6nUwBj1VWcTi3PPLnZV0hmPRPKKL0YmhSG1kjH62N3_LSh7b7kXMqmYTY0aiS7CYP79gSLKAZlzEGFqg9j_b0AuNjLh-4=w640-h480-no)
+
+it means that ideal option for us is age between [24, 26] where function returns 1. Also return value decreasing  when argument approaches to 18 and 35 as shown on graph. It means that you don't need 18 year old player who doesn't have any experience, also you don't need older than 35, it is too old for your team. For example this function estimates 30 old player as 0.55
+
+![](https://latex.codecogs.com/gif.latex?%5Clarge%20f%2830%3B%2018%2C%2024%2C%2026%2C%2035%29%20%3D%200.55)
+
+
+**2.Years in NBA**
+
+Here we use _triangular membership function_ ![](https://lh3.googleusercontent.com/zR-CQQ1sdy0pkZE1hrOrwI0isMtHdAbTZYqt1YcxUwOfO4bXn6fDMWf9qEvJ5jyR8L2B235mkVmDDiF14xi1vAqdsxPt-gux3QbQKDPaaezJcqa1e2jlaszfB3aP3yZvIEHnrlxM14hXN1E1NQnDMGVe5HD9Ht3Z_9kkPeWsjKHo5S0sUV9TemUEm_BpCf5F1sEusJ1fOOmtRBKm4YOxViqrT2i84LHFw1_NPCj85NnfImsFeCMiK-SQ0DmHg9lB9nnnqQ1smAt46YXWPSfrp_6p_1beubYywf-CROCXOqVCOpzpGn-nqeff9Mg4hvCuIw9GmENbVi9Cyl3ELIVv9P6aOLFJ4yWi4rbRUMZvVybOAeTBSL2oqyuo5X5MYx1qPx8NONp-tg6FRSfK-E2FMgdA0M7fQbPh6UiQv-BYppWtRiy_C2URIMwS5aqVY4vkDtWZAJp8qyFhwkFmdyA-EoVoQp-RKejHYwr4jB8ClV7o7n1GAr46qVeVcc-qj0zFUmRq9icdc8ziHc-6JFg97Yp5tPVXxkHPV5GoqT61ZBOyxIaz_41tCof_XUlxI6zqbb2TIiZhl4IE8Jt4WJi_XYjOsFMZC6dl41hLAfc=w214-h143-no)
+
+where a, b and c are numeric params indicating corners of triangle-shaped graph: 
+
+![](https://lh3.googleusercontent.com/dATKAE-sJlo8g1zqsQNiiKosXc6pCQp8ctiNqqt8T0tqBzQ_MlJ2TPqUdiaasK6SQZEWpiW96jxrK0Pj6EP9I_8qZy8bEv3U01PFLjCXPV1YJADhpyryPOCyfsZNBkPLnxf65VE5u9N-DRTmQxUpnD77pA5bXi929AT89nhjo83AiCnzBFVmu_O0A5Ac2rwrJPLqywijhfmc8qTEzquE2F0Z8J5nXAQfoZ46MxAAI8-3N2kUMnEEB0fq9Q-l_pUqoCXLYfZ-mVnoT1-0GlMKPbSXAQ5q8WgdSGGXNNiSV1FxIwJv41uoVEULyf4UdWtgytYbACAi-QdYF7RgIgGLyvXPKPXSbGPeL7y7rDSm4QPQFhkTPcOgZxq0vYlb1mkhJ6Lc5RwBLiD2mX0sF1WzXFs2PZH_pKR_KIJDiu2FxV-reOmmsVG49V_26_CAxB1V90sGMFokhaXzfO4SuFDCsjW2OE0_yu_tyvXhhiPEnamf7buddlO5lbqHHL6SRrPMXq3VHaHOc0l2Jvjb0qHy4w28qztb0g1PwlB1I1BDLuHEe66G3tr_FZcZHd-Z_rJULpdq0X56_qeuA-DVaOj7ECzSJnP8OZ6pvXarlD4=w640-h480-no)
+
+
+in this graph a = 0, b = 5, c = 13 and it means that your favorite option would be player with 5 years of NBA experience.  
+
+**3. Cost**
+You just have 20 million dollars and you want to not waste all your money but also you don't need to buy cheap player, because in trademarket cost means player efficiency.
