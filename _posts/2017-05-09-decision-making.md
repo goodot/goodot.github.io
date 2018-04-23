@@ -84,3 +84,7 @@ You just have 20 million dollars and you want to not waste all your money but al
 Of course point guards are not too tall because they should be quick, could move ball fast da have good dribbling skills. There is snippet from wikipedia:
 
 > In the NBA, point guards are usually about 6' 3" (1.93 m) or shorter, and average about 6' 2" (1.88 m) whereas in the WNBA, point guards are usually 5' 9" (1.75 m) or shorter. Having above-average size (height, muscle) is considered advantageous, although size is secondary to situational awareness, speed, quickness, and ball handling skills.
+
+Lets take triangle again, a = 160, b = 188, c = 205
+
+![](https://lh3.googleusercontent.com/gEP8-kD6ATrMcdtNzNYDZwq8trW-L9v1b45o_FqjrVLtdSnekIKJg92Zp9pKZb9XYp2kRNLy2tUTEtUtfAUbgAtRMWgoEpB4bPvkeqHgkAEcDcVOdXRFYdWdVQH6BBlMfO7vgDiW3ulZH08v1wXlHfGl9PWRHD50O6a4TEO4fArI8FNqDB-cVEhdfBPe_P2Ez9iZm-zsKjpk0JZGpgTs05DqSAZHEY-cKRCrNcNaafu-cPfd12h45OiZx3Hg3hSOFzPwPYF1koJq6tYua_PKy0xAi5hoDKAPE7_HLnG9e_wIkap5xLV0mjSWKth9Np4-boEF_fAPZo7bWFbo2U_PJoBlKClxr9DLaHhVP8GtaYk7Pz0i0R6uSWMIv1u2tS2V6cSVfXiKWd0gDmPpIx02gATOcsGTiKD0LPN3oNJR9LGQUDi4_OEWf4ZrDooEN1yZ0k9AkRt845EHmFbIrUYeumM89CR88kJ65dp3oLMBfmAmYkigvSlWAfzucCtY1DfpwxHHvJeFx4GeyxElB9XDpwBvTP82dqX8XI0T9O2wmr9Qf2Q-E32NsEiC7WxN5ByXki_VZEoNCRvQyFzSbPJqPG5Mtonir9LL1Aji22g=w640-h480-no)
