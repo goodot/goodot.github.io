@@ -88,3 +88,14 @@ Of course point guards are not too tall because they should be quick, could move
 Lets take triangle again, a = 160, b = 188, c = 205
 
 ![](https://lh3.googleusercontent.com/gEP8-kD6ATrMcdtNzNYDZwq8trW-L9v1b45o_FqjrVLtdSnekIKJg92Zp9pKZb9XYp2kRNLy2tUTEtUtfAUbgAtRMWgoEpB4bPvkeqHgkAEcDcVOdXRFYdWdVQH6BBlMfO7vgDiW3ulZH08v1wXlHfGl9PWRHD50O6a4TEO4fArI8FNqDB-cVEhdfBPe_P2Ez9iZm-zsKjpk0JZGpgTs05DqSAZHEY-cKRCrNcNaafu-cPfd12h45OiZx3Hg3hSOFzPwPYF1koJq6tYua_PKy0xAi5hoDKAPE7_HLnG9e_wIkap5xLV0mjSWKth9Np4-boEF_fAPZo7bWFbo2U_PJoBlKClxr9DLaHhVP8GtaYk7Pz0i0R6uSWMIv1u2tS2V6cSVfXiKWd0gDmPpIx02gATOcsGTiKD0LPN3oNJR9LGQUDi4_OEWf4ZrDooEN1yZ0k9AkRt845EHmFbIrUYeumM89CR88kJ65dp3oLMBfmAmYkigvSlWAfzucCtY1DfpwxHHvJeFx4GeyxElB9XDpwBvTP82dqX8XI0T9O2wmr9Qf2Q-E32NsEiC7WxN5ByXki_VZEoNCRvQyFzSbPJqPG5Mtonir9LL1Aji22g=w640-h480-no)
+
+
+**5. Assists per game (APG)**
+
+Here we choose some non fundamental, custom membership function which has horizontal asymptote on y=1
+
+![](https://lh3.googleusercontent.com/EhZ_9t08VDKUpJERYdO0iVvjytUp8QBrKz3aYSUTGBOOxOlgK7d4YB9FHc0l7ltINJPfUVoKr7jlchAQZo9HTykiYhDnQk3DOB8xVgbfM1dObzT80EB56JQ0Z4n3Huevo8l9K4W_T9EVZ3JzuEo01qc_3fJg4-rJhes6h6H5Yak1MItQBTzyt0JiVkwmGw-wE0iGjxkdLvyWRFddQa9qg91FFDQt5fr-GJykf6iMkJLMPN-hStxR-11U5itT9nCVhsw94Lee9AG3yyGvDEK7y4Dq7o76MktPlOhR9UgRB_G0zKhAfbqG7fHtIFkc5nM9RiwLWpnxI8-AVOgKDcgwx9w20aPk5J1KOKgRPozpcoN87s9k7AGrMws58tGmDanOP_xGVMM30iIsnQxZnJrWTnnm8Cm6vlj6HwjsfeFh-gPy29mWt0IaX8XQ98VX8j2gRM2FE2q63rgMW34aA01kgv2SUA1JFiPjEu5xVfoKHPLAfpUuhBVGFeursxrnZG_GhHIgP2lQhe_gxeXwbj5gveYzT_KBJJrrIz-NTzSx1oxHKN1kp8cnxebQupn7sxnfaT1AoVaU0VV-13TL-7A2Zh4pnFeu4jhqkXjQVak=w640-h480-no)
+
+this means that function has value 0 at point x = 1 and it increases monotonously by increasing **x** and never becomes equal to 1 because function has asympote **y = 1**. Here is a formula of this graph:
+
+
