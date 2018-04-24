@@ -98,4 +98,36 @@ Here we choose some non fundamental, custom membership function which has horizo
 
 this means that function has value 0 at point x = 1 and it increases monotonously by increasing **x** and never becomes equal to 1 because function has asympote **y = 1**. Here is a formula of this graph:
 
+![](https://latex.codecogs.com/gif.latex?%5Clarge%20f%28x%29%20%3D%20%5Cfrac%7Bx-1%7D%7Bx-0.2%7D)
+
+
+**6. Three point percentage (3P%)**
+
+We should take same type of function here but with different parameters:
+
+![](https://latex.codecogs.com/gif.latex?%5Clarge%20f%28x%29%20%3D%20%5Cfrac%7Bx-20%7D%7Bx-19%7D)
+
+
+
+![](https://lh3.googleusercontent.com/gyS0Ndeu4nWCvi6Luj86YzCMNVlQEUBtAcJ2pnh46QKfzcgjFBF7kccw50ZwwJ4GcPR2X8g6OSWHDq0Hftqe0fqNhfe2kGv7eZcueDzl2FftBh-G0M1YqFzJu1KPLupGl1ffF_OPhdmecgoZIxwxBECnQUkRiCEAeCgGGQC5jwcqZ_KsIyA8JZMz2T-ZQvtyTtAbtPHBxIrNwxEeyY09DPtw9JIyjRwFVzKl79Hwh1Xjs7QcAWx2c7dINNO1HcQ8teUhPfKqUWTNuxUpgpwmh6Jc41EL0wTENukFBxa-ldnMhrCiVOM1LiqsthX0ezL3cQvgHTsmuI2cG-2fCB6TfZPWrzOoFZDt7w5R8cNp4kaGV5Cpaz_sqX2wK5r2XjzkE3fhAbqB6U-tpFf_7SfLezQVWscdoPNs3dzQk1fOwsM1W-G87L5LRdBmVhvrVsCNduHChLaDJGBTwlYKFZSxgWkdBW9uzdqAaZma0gAIC3UkEJbLfFu3n0tr41lmNnqT2oza-Fjm7rIoh-KjMoTFzfSXJBdpLRt_dL5fR_ivhrspC49MWNFizOXL4Ksknz6A8NqrqYqAjMr_tf1G_ubgaa0hZpCfxoxXY26sLS4=w640-h480-no)
+
+
+
+
+## Aggregation
+
+Lets calculate values of membership functions for example for **JJ Barea**:
+
+![](https://latex.codecogs.com/gif.latex?%5Clarge%20age%2833%29%20%3D%200.22)
+
+![](https://latex.codecogs.com/gif.latex?%5Clarge%20height%28182%29%20%3D%200.78)
+
+![](https://latex.codecogs.com/gif.latex?%5Clarge%20tpp%2835.4%29%20%3D%200.94)
+
+![](https://latex.codecogs.com/gif.latex?%5Clarge%20apg%283.9%29%20%3D%200.78)
+
+![](https://latex.codecogs.com/gif.latex?%5Clarge%20years%2811%29%20%3D%200.25)
+
+![](https://latex.codecogs.com/gif.latex?%5Clarge%20cost%289.2%29%20%3D%200.71)
+
 
