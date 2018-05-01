@@ -129,3 +129,5 @@ Lets calculate values of membership functions for example for **JJ Barea**:
 ![](https://latex.codecogs.com/gif.latex?%5Clarge%20years%2811%29%20%3D%200.25)
 
 ![](https://latex.codecogs.com/gif.latex?%5Clarge%20cost%289.2%29%20%3D%200.71)
+
+so we have evaluations for 
