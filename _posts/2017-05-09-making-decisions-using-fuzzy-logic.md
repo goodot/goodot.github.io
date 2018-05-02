@@ -135,3 +135,4 @@ so we have evaluations for each characteritic of player and we need to aggregate
 
 So aggregated evaluation of **JJ Barea** would be:
 
+![](https://latex.codecogs.com/gif.latex?A%20%3D%20%5Cfrac%7B1%7D%7B6%7D%280.22%20&plus;%200.78%20&plus;%200.94%20&plus;%200.78%20&plus;%200.25%20&plus;%200.71%29)
