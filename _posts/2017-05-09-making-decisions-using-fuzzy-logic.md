@@ -142,5 +142,7 @@ and full table of evaluations looks like that:
 ![](https://lh3.googleusercontent.com/OpOYfYWuhAxOBIjCPavdXWkPcGF5eGO3LE6RN1SmoMXkR2VhMTD6JTTQhmOnwGMwXa3oHjb0YmWMslbv3xsO3QkSr4tmNHbS4b7Traj__OYTlZLnDb_Owdfc6GT_5sZACe0P_OHGXEtTPOt3DKM4nfXdbwHlwbc-0uAiDc5ax8pDpH9PO4cO6X4AGtvnrLsCaJNGnJJ63ZAHI22ieEXI4fBgh8jn5B_xNP8DrgcI4cdpuVoBmHQrSjBZ4tUAbkCUn2IqkATC-AEaiFsXwAkeBz_HFZNe9TGrUYF_5MCI1GBPwZYBWe7hhG_jbG2bjBTV71CZP5D3O_BPR8q7K_xkrVw0RTkaPlxvIBpU5r0Dyiwi8W_VW2MjBZCoFUY1gyMJCdez8SFNwkBaCLqiO9rDMG_VONh2CuDX-FEcaxUap4dzVMlDEZrd8YeMpeWOfWC2QYdTgkteGhU4Mx3e4fcU1ux5ZPtYhgQ0K5jW61MzVw57VG09RPjyOVtGII77YtkzHC7v6IevYfzx7vEJqN-Z4zgeZAhRP6W79Rah4rRVwNhSFBP0ZQ6migxoSsGm4Xmkm-jhnqpAb56jGeUzz527fG4FoCP8P4TvYbNrr84=w263-h418-no)
 
 
-it seems that Ricky Rubio is who you need, right? 
+it seems that Ricky Rubio is who you need, right?
 
+
+But we can evaluate it better, I think you have different priorities for all of your requirements, so if we take in account your priorities and reevaluate this players maybe we receive different results. Lets talk about priorities, how can we integrate it in our calculations mathematically.
