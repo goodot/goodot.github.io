@@ -147,4 +147,4 @@ it seems that Ricky Rubio is who you need, right?
 
 But we can evaluate it better, I think you have different priorities for all of your requirements, so if we take in account your priorities and reevaluate this players maybe we receive different results. Lets talk about priorities, how can we integrate it in our calculations mathematically.
 
-We should just use weighted aggregation functions instead of simple aggregation functions. For example in our example we used Arithmetic mean and now we are going to change it with [Weighted arithmetic mean](https://en.wikipedia.org/wiki/Weighted_arithmetic_mean).
+We should just use weighted aggregation functions instead of simple aggregation functions. For example in our example we used Arithmetic mean and now we are going to change it with [Weighted arithmetic mean](https://en.wikipedia.org/wiki/Weighted_arithmetic_mean). ![](https://wikimedia.org/api/rest_v1/media/math/render/svg/8fbc8672f99ef163d74904ed1920e81a108d3bd9)
