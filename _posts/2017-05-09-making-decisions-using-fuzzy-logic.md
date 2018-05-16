@@ -156,4 +156,6 @@ Here is a same table with priorities in the header:
 
 ![](https://lh3.googleusercontent.com/0co1LM-XiOz4i3Z1IGjKQbefFVe-IY-HYihW_1Qtzib7FFVpkBVItXcP98LFc2D4Dp2aanXJEf2jchKM8ron1X9jXQA90tK-4q4ZfiwW3wWy6oQ4Pdqc9o68igdMdy690oBvu_fxGxHDM0H1UwJACoCR_zy9CGWSbunisLDGRwT1EOdLQWojXhBWI5R-L9w3CDdbw_BeC7sxdEjUsQ3wurqGTAe9uB8568OABudOZvLa5WIKB3vIVoLAn6YY4clDC7zHVx7gGmvFGcoYJuB6YStrKe8sXx5EBl05iR2sALTjGVap-gQSOD74UjukShomEff519t-W3YIAERU5Y7nzLkzyTh694aLSzLQiE6W_kHhpcMeMp-ZZ4GTnoQgzf2GPe8hRRadcE0Cx6xSBle7PhxmkFYagEdOUjfxXzgmHfaQ5OYlyXovUH3IKTgC6TbMjUM5baMvAfJVDySNZcFFUGKJIM_r3K6nrgiBP3gh1zzC6_HY42gMZgikEoeAnoFyReGu8am_pYcm54gKx4yTixQVttEagLFljlzeDu3LvQ0eEzARo_qy2PX8bn-FtoboR3aXIhdWDmwBGEKaqv2pPjvWnUjFHa2C1Io_kNk=w733-h424-no)
 
-So, **cost** is most important for you, **NBA experiense** is not your key requirement, **three point shooting and assisting** skills are also important but not as **cost**
+So, **cost** is most important for you, **NBA experiense** is not your key requirement, **three point shooting and assisting** skills are also important but not as **cost** and **age and height** is not too important but not unimportant. All of this indicated in numbers in the table above so talking about it doesn't worth. 
+
+
